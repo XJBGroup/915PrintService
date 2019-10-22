@@ -6,4 +6,3 @@ C:\Users\915\Desktop\915\915PrintService\915PrintService\XProtocol\obj\Release\X
 C:\Users\915\Desktop\915\915PrintService\915PrintService\XProtocol\obj\Release\XProtocol.dll
 C:\Users\915\Desktop\915\915PrintService\915PrintService\XProtocol\obj\Release\XProtocol.xml
 C:\Users\915\Desktop\915\915PrintService\915PrintService\XProtocol\obj\Release\XProtocol.pdb
-C:\Users\915\Desktop\915\915PrintService\915PrintService\XProtocol\obj\Release\XProtocol.vbprojAssemblyReference.cache
