@@ -19,6 +19,9 @@ Public Class ConnectedClient
 
     'expose the received data as a string property to facilitate databinding
     Private _Text As String = String.Empty
+    Public Sub Clear()
+        Received.Clear()
+    End Sub
     Public ReadOnly Property Text As String
         Get
             'Return Received.ToString

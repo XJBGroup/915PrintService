@@ -3,25 +3,28 @@ Imports System.Drawing.Printing
 
 Public Class Printer
     Private PrintPageSettings As New PageSettings
-    Private StringToPrint As String
     Private TitleFont As New Font("Arial", 12, FontStyle.Bold)
     Private PrintFont As New Font("Arial", 10)
 
+    Private StringToPrint As String
     Public SubmitTime = New Date().ToString()
     Public SubmitTeam = "YTS1999"
     Public SubmitProblem = "YTS1999"
 
-    Public Sub New(ByVal time As String, ByVal team As String, ByVal problem As String, ByVal code As String)
+    Friend WithEvents PrintDocument1 As PrintDocument
+    Public PrintDialog1 As PrintDialog
+
+    Public Sub New(ByVal time As String, ByVal team As String, ByVal problem As String, ByVal code As String,
+                   ByVal doc As PrintDocument, ByVal dia As PrintDialog)
         SubmitProblem = problem
         SubmitTeam = team
         SubmitTime = time
         StringToPrint = code
+        PrintDocument1 = doc
+        PrintDialog1 = dia
     End Sub
     Public Sub Gao()
         Try
-            Dim PrintDocument1 = New PrintDocument()
-            Dim PrintDialog1 = New PrintDialog()
-
             PrintDocument1.DefaultPageSettings = PrintPageSettings
             PrintDialog1.Document = PrintDocument1
             PrintDocument1.Print()
@@ -30,7 +33,7 @@ Public Class Printer
         End Try
     End Sub
 
-    Private Sub PrintDocument1_PrintPage(ByVal sender As System.Object, ByVal e As System.Drawing.Printing.PrintPageEventArgs)
+    Public Sub PrintDocument1_PrintPage(ByVal sender As System.Object, ByVal e As System.Drawing.Printing.PrintPageEventArgs) Handles PrintDocument1.PrintPage
         Dim numChars As Integer
         Dim numLines As Integer
         Dim stringForPage As String

@@ -73,6 +73,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Printer.vb" />
     <Compile Include="ConnectedClient.vb" />
     <Compile Include="ConnectedClientCollection.vb" />
     <Compile Include="Form1.vb">

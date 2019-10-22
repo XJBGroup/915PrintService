@@ -21,8 +21,8 @@ Public Class Form1
                 MessageBox.Show(ex.Message)
                 client.Close()
             End Try
-            connectButton.Text = "Connect"
         Else
+            connectButton.Text = "Connect"
             client.Close()
         End If
     End Sub
@@ -34,7 +34,10 @@ Public Class Form1
             res.time = Date.Now().ToString()
             res.user = "Yts1999"
             res.problem = "Yts1999"
-            Dim context = Newtonsoft.Json.JsonConvert.SerializeObject(res).ToString()
+            Dim raw = Newtonsoft.Json.JsonConvert.SerializeObject(res).ToString()
+
+            Dim context = Convert.ToBase64String(System.Text.Encoding.GetEncoding("utf-8").GetBytes(raw)) + " "
+
             Dim Message As New XProtocol.XMessage(<TextMessage text1=<%= context %>/>)
             Dim buffer() As Byte = message.ToByteArray
             Try

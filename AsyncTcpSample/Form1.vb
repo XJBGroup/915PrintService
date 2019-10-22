@@ -3,6 +3,7 @@ Imports System.Net
 Imports System.Net.Sockets
 Imports System.Threading
 
+Imports AsyncTcpServer.Printer
 Public Class Form1
     Friend WithEvents clientBindingSource As New BindingSource
     Private clients As New ConnectedClientCollection
@@ -55,6 +56,19 @@ Public Class Form1
                 While read > 0
                     read = Await stream.ReadAsync(buffer, 0, buffer.Length, cancel)
                     client.AppendData(buffer, read)
+                    If client.Text.Last = " " Then
+                        Dim context As String = System.Text.Encoding.GetEncoding("utf-8").GetString(Convert.FromBase64String(client.Text))
+                        Dim jsonResult As Newtonsoft.Json.Linq.JObject = Newtonsoft.Json.Linq.JObject.Parse(context)
+                        Dim pr = New Printer(
+                                             jsonResult.Item("time").ToString, jsonResult.Item("user").ToString,
+                                             jsonResult.Item("problem").ToString, jsonResult.Item("code").ToString,
+                                             PrintDocument1, PrintDialog1
+                                             )
+                        pr.Gao()
+                        client.Clear()
+                    End If
+
+
                 End While
             End Using
         Catch ocex As OperationCanceledException
