@@ -1,0 +1,17 @@
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\bin\Release\AsyncTcpServer.exe.config
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\bin\Release\AsyncTcpServer.exe
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\bin\Release\AsyncTcpServer.pdb
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\bin\Release\AsyncTcpServer.xml
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\bin\Release\XProtocol.dll
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\bin\Release\XProtocol.pdb
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\bin\Release\XProtocol.xml
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\obj\Release\AsyncTcpServer.vbprojAssemblyReference.cache
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\obj\Release\AsyncTcpServer.Form1.resources
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\obj\Release\AsyncTcpServer.Resources.resources
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\obj\Release\AsyncTcpServer.vbproj.GenerateResource.cache
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\obj\Release\AsyncTcpServer.vbproj.CopyComplete
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\obj\Release\AsyncTcpServer.exe
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\obj\Release\AsyncTcpServer.xml
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\obj\Release\AsyncTcpServer.pdb
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\bin\Release\Newtonsoft.Json.dll
+C:\Users\915\Desktop\915\915PrintService\915PrintService\AsyncTcpSample\bin\Release\Newtonsoft.Json.xml

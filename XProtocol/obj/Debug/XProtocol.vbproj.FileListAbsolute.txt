@@ -1,0 +1,8 @@
+D:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\XProtocol\bin\Debug\XProtocol.dll
+D:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\XProtocol\bin\Debug\XProtocol.pdb
+D:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\XProtocol\bin\Debug\XProtocol.xml
+D:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\XProtocol\obj\Debug\XProtocol.Resources.resources
+D:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\XProtocol\obj\Debug\XProtocol.vbproj.GenerateResource.Cache
+D:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\XProtocol\obj\Debug\XProtocol.dll
+D:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\XProtocol\obj\Debug\XProtocol.xml
+D:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\XProtocol\obj\Debug\XProtocol.pdb

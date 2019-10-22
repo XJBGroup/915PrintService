@@ -1,0 +1,14 @@
+d:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\AsyncTcpClient\bin\Debug\AsyncTcpClient.exe.config
+d:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\AsyncTcpClient\bin\Debug\AsyncTcpClient.exe
+d:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\AsyncTcpClient\bin\Debug\AsyncTcpClient.pdb
+d:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\AsyncTcpClient\bin\Debug\AsyncTcpClient.xml
+d:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\AsyncTcpClient\obj\Debug\AsyncTcpClient.Form1.resources
+d:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\AsyncTcpClient\obj\Debug\AsyncTcpClient.Resources.resources
+d:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\AsyncTcpClient\obj\Debug\AsyncTcpClient.vbproj.GenerateResource.Cache
+d:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\AsyncTcpClient\obj\Debug\AsyncTcpClient.exe
+d:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\AsyncTcpClient\obj\Debug\AsyncTcpClient.xml
+d:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\AsyncTcpClient\obj\Debug\AsyncTcpClient.pdb
+D:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\AsyncTcpClient\bin\Debug\XProtocol.dll
+D:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\AsyncTcpClient\bin\Debug\XProtocol.pdb
+D:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\AsyncTcpClient\bin\Debug\XProtocol.xml
+D:\Users\Reedo\Documents\Visual Studio 2013\Projects\AsyncTcpSample\AsyncTcpClient\obj\Debug\AsyncTcpClient.vbprojResolveAssemblyReference.cache
