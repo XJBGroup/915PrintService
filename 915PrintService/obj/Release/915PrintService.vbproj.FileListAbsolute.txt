@@ -1,0 +1,4 @@
+C:\Users\915\Desktop\915\915PrintService\915PrintService\915PrintService\obj\Release\915PrintService.vbprojAssemblyReference.cache
+C:\Users\915\Desktop\915\915PrintService\915PrintService\915PrintService\obj\Release\_915PrintService.Form1.resources
+C:\Users\915\Desktop\915\915PrintService\915PrintService\915PrintService\obj\Release\_915PrintService.Resources.resources
+C:\Users\915\Desktop\915\915PrintService\915PrintService\915PrintService\obj\Release\915PrintService.vbproj.GenerateResource.cache
